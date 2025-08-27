@@ -9,6 +9,7 @@ const getTodoListFromLS = () => {
 const addTodoListlocalStorage = (todo) => {
   localStorage.setItem("todoData", JSON.stringify(todo));
 };
+console.log("new change");
 
 const showTodoList = () => {
     todoListValue = getTodoListFromLS();
